@@ -28,6 +28,7 @@ class Varasto:
         else:
             self.saldo = self.tilavuus
 
+# ottaa varastosta
     def ota_varastosta(self, maara):
         if maara < 0:
             return 0.0
